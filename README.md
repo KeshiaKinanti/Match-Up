@@ -69,8 +69,8 @@ To edit or remix the game:
 ---
 
 ## Project Status
-Status: Complete 
-This version is stable and playable. 
+Status: Complete
+This version is stable and playable.
 While I’m not actively developing it further right now, I plan to revisit it for future portfolio updates.
 
 ---
