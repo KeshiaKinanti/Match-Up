@@ -7,15 +7,15 @@ Link to Live demo & overview: [https://youtu.be/cXw6xPGaoOA]
 
 ## Table of Contents  
 - [General Information](#general-information)  
-- [Technologies Used](#-technologies-used)  
-- [Features](#-features)  
-- [Screenshots](#-screenshots)  
-- [Setup](#-setup)  
-- [Usage](#-usage)  
-- [Project Status](#-project-status)  
-- [Room for Improvement](#-room-for-improvement)  
-- [Acknowledgements](#-acknowledgements)  
-- [Contact](#-contact)
+- [Technologies Used](#technologies-used)  
+- [Features](#features)  
+- [Screenshots](#screenshots)  
+- [Setup](#setup)  
+- [Usage](#usage)  
+- [Project Status](#project-status)  
+- [Room for Improvement](#room-for-improvement)  
+- [Acknowledgements](#acknowledgements)  
+- [Contact](#contact)
 
 ---
 
