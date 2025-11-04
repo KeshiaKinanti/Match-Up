@@ -61,7 +61,52 @@ To edit or remix the game:
 ---
 
 ## Usage  
-- Use arrow keys to navigate the grid.  
+- Use arrow keys to navigate the grid.
+'// ARROW KEY NAVIGATION
+controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (selectedCol > 0) {
+        selectedCol += -1
+        highlightSelected()
+    
+        if (cursorHighlight) {
+            cursorHighlight.setPosition(plates[selectedRow][selectedCol].x, plates[selectedRow][selectedCol].y)
+        }
+    }
+})
+
+controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (selectedCol < 4) {
+        selectedCol += 1
+        highlightSelected()
+
+        if (cursorHighlight) {
+            cursorHighlight.setPosition(plates[selectedRow][selectedCol].x, plates[selectedRow][selectedCol].y)
+        }
+    }
+})
+
+controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (selectedRow > 0) {
+        selectedRow += -1
+        highlightSelected()
+
+        if (cursorHighlight) {
+            cursorHighlight.setPosition(plates[selectedRow][selectedCol].x, plates[selectedRow][selectedCol].y)
+        }
+    }
+})
+
+controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (selectedRow < 3) {
+        selectedRow += 1
+        highlightSelected()
+
+        if (cursorHighlight) {
+            cursorHighlight.setPosition(plates[selectedRow][selectedCol].x, plates[selectedRow][selectedCol].y)
+        }
+    }
+})'
+
 - Press **A** to flip a plate and reveal the dessert.  
 - Match two identical desserts to score a pair.  
 - Complete all matches before the timer runs out!
