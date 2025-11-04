@@ -62,8 +62,8 @@ To edit or remix the game:
 
 ## Usage  
 - Use arrow keys to navigate the grid.
-'// ARROW KEY NAVIGATION
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
+// ARROW KEY NAVIGATION
+'controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     if (selectedCol > 0) {
         selectedCol += -1
         highlightSelected()
@@ -72,7 +72,7 @@ controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
             cursorHighlight.setPosition(plates[selectedRow][selectedCol].x, plates[selectedRow][selectedCol].y)
         }
     }
-})
+})'
 
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     if (selectedCol < 4) {
