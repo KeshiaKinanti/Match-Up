@@ -6,7 +6,7 @@ Link to Prototype: [https://arcade.makecode.com/S04960-74764-87539-01557]
 Link to Live demo & overview: [https://youtu.be/cXw6xPGaoOA]
 
 ## Table of Contents  
-- [General Information](#-general-information)  
+- [General Information](#general-information)  
 - [Technologies Used](#-technologies-used)  
 - [Features](#-features)  
 - [Screenshots](#-screenshots)  
@@ -41,7 +41,6 @@ Link to Live demo & overview: [https://youtu.be/cXw6xPGaoOA]
 - Highlight cursor with blinking animation for accessibility  
 - Custom sprite design with picnic-themed desserts  
 - Responsive feedback and win screen  
-- Peer-tested and iteratively improved
 
 ---
 
@@ -62,10 +61,10 @@ To edit or remix the game:
 ---
 
 ## Usage  
-Use arrow keys to navigate the grid.  
-Press **A** to flip a plate and reveal the dessert.  
-Match two identical desserts to score a pair.  
-Complete all matches before the timer runs out!
+- Use arrow keys to navigate the grid.  
+- Press **A** to flip a plate and reveal the dessert.  
+- Match two identical desserts to score a pair.  
+- Complete all matches before the timer runs out!
 
 ---
 
